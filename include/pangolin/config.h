@@ -32,10 +32,10 @@
 /* #undef HAVE_TELICAM */
 /* #undef HAVE_PLEORA */
 
-#define HAVE_FFMPEG
+/* #undef HAVE_FFMPEG */
 /* #undef HAVE_FFMPEG_MAX_ANALYZE_DURATION2 */
-#define HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2
-#define HAVE_FFMPEG_AVPIXELFORMAT
+/* #undef HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2 */
+/* #undef HAVE_FFMPEG_AVPIXELFORMAT */
 
 #define HAVE_GLEW
 /* #undef GLEW_STATIC */
@@ -52,7 +52,7 @@
 #define HAVE_JPEG
 #define HAVE_TIFF
 #define HAVE_OPENEXR
-/* #undef HAVE_ZSTD */
+#define HAVE_ZSTD
 
 /// Platform
 #define _UNIX_
